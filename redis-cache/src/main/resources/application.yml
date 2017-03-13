@@ -1,0 +1,21 @@
+server:
+  port: 8090
+logging:
+  path: ./logs
+  file: RedisCache.log
+spring:
+  redis:
+    cluster:
+      nodes:
+        - 192.168.204.129:7000
+        - 192.168.204.129:7001
+        - 192.168.204.129:7002
+#    database: 0
+#    host: 192.168.204.129
+#    port: 7000
+#    password:
+#    pool:
+#      max-idle: 8
+#      min-idle: 0
+#      max-active: 8
+#      max-wait: 1
